@@ -4,12 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to Sangeetam</title>
-    <link
+    <!-- <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.1.1/flowbite.min.css"
       rel="stylesheet"
-    />
-
-    <script src="https://cdn.tailwindcss.com"></script>
+    /> -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
@@ -20,7 +18,8 @@
     <link rel="shortcut icon " type="image/x-icon " href="img/logo.png" />
 
     <!-- external css  -->
-    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/input.css" />
+    <link rel="stylesheet" href="./css/output.css" />
   </head>
 
   <body>
@@ -67,6 +66,13 @@
       </li> -->
       <li class="mx-4 my-6 md:my-0">
         <a
+          href="#about-sangeetam"
+          class="text-xl text-slate-50 hover:text-sky-300 duration-500"
+          >About</a
+        >
+      </li>
+      <li class="mx-4 my-6 md:my-0">
+        <a
           href="#faq"
           class="text-xl text-slate-50 hover:text-sky-300 duration-500"
           >FAQs</a
@@ -91,10 +97,10 @@
     <!-- herosection  -->
 
     <header id="hero" class="w-full h-screen flex justify-center pb-10">
-      <div id="festName" class="w-full h-full"></div>
+      <div id="festName" class="w-full h-full mt-5"></div>
       <h1
         id="title"
-        class="underline underline-offset-4 text-cyan-50 text-6xl md:text-8xl font-bold"
+        class="text-center text-6xl md:text-8xl "
       >
         Sangeetam 2k24
       </h1>
@@ -106,7 +112,7 @@
     </section>
 
     <section id="venue" class="w-full text-center my-10">
-      <h1 class="text-5xl font-bold underline underline-offset-4 p-4">Venue</h1>
+      <h1 class="text-5xl font-bold underline underline-offset-8 p-4">Venue</h1>
       <div class="pb-5 text-gray-400">
         <p>Shobhit Deemed University Campus, Meerut</p>
         <p>NH-58 Modipuram, Meerut 250110, India</p>
@@ -114,7 +120,7 @@
     </section>
     <!-- about sangeetam  -->
     <section id="about-sangeetam" class="about text-center">
-      <h1 class="text-3xl font-bold my-4 pb-5">About Sangeetam</h1>
+      <h1 class="text-4xl  font-bold my-4 p-5 z-10 underline underline-offset-8">About Sangeetam</h1>
       <p class="text-center mx-12 mb-2 text-gray-300 ">
         "Sangeetam 2024," the eagerly awaited annual cultural extravaganza of
         Shobhit Deemed University, goes beyond a mere celebration of art and
@@ -201,7 +207,7 @@
 
     <!-- about university  -->
     <section id="about-university" class="about text-center mt-10 mb-7 py-4">
-      <h1 class="text-3xl font-bold my-4 pb-5">About Shobhit University</h1>
+      <h1 class="text-4xl font-bold my-4 py-5 underline underline-offset-8">About Shobhit University</h1>
       <p class="text-center mx-12 mb-2 text-gray-300">
         Shobhit University believes in strategic growth as envisaged in our
         mission and vision, to impart quality education through vertical and
@@ -244,184 +250,202 @@
     <!-- Events -->
 
     <section id="eventlist">
-      <h1 id="events" class="text-3xl font-bold pb-7 text-center capitalize">
+      <h1 id="events" class="text-3xl underline underline-offset-8 font-bold pb-7 text-center capitalize">
         Events
       </h1>
       <div class="px-4 grid mb-5 sm:grid-cols-1 md:grid-cols-3 gap-5">
         <!--Event 1-->
         <div id="1" class="desc bg-amber-400 rounded-3xl overflow-hidden">
-          <h1 class="font-bold text-xl text-center pt-3">Event 1</h1>
+          <h1 class="font-bold text-xl text-center pt-3">Singing Competition</h1>
           <img src="./img/events-section/event1.PNG" alt="event1" />
         </div>
-        <!--Event 2-->
+        <!-- Event 2
         <div
           id="2"
           class="desc bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
         >
           <h1 class="font-bold text-xl text-center pt-3">Event 2</h1>
           <img src="./img/events-section/event2.PNG" alt="event2" />
-        </div>
+        </div> -->
 
+        <!--Event 2-->
+        <div id="2" class="desc bg-gray-400 rounded-3xl overflow-hidden">
+          <h1 class="font-bold text-xl text-center pt-3">Battle of Bands</h1>
+          <img src="./img/events-section/event3.PNG" alt="event2" />
+        </div>
         <!--Event 3-->
-        <div id="3" class="desc bg-gray-400 rounded-3xl overflow-hidden">
-          <h1 class="font-bold text-xl text-center pt-3">Event 3</h1>
-          <img src="./img/events-section/event3.PNG" alt="event3" />
+        <div id="3" class="desc bg-lime-600 rounded-3xl overflow-hidden">
+          <h1 class="font-bold text-xl text-center pt-3"> Doodle Sketching Competition</h1>
+          <img src="./img/events-section/event4.PNG" alt="event3" />
         </div>
         <!--Event 4-->
-        <div id="4" class="desc bg-lime-600 rounded-3xl overflow-hidden">
-          <h1 class="font-bold text-xl text-center pt-3">Event 4</h1>
-          <img src="./img/events-section/event4.PNG" alt="event5" />
+        <div id="4" class="desc bg-amber-700 rounded-3xl overflow-hidden">
+          <h1 class="font-bold text-xl text-center pt-3">
+            Fashion Show
+          </h1>
+          <img src="./img/events-section/event5.PNG" alt="event4" />
         </div>
+
         <!--Event 5-->
-        <div id="5" class="desc bg-amber-700 rounded-3xl overflow-hidden">
-          <h1 class="font-bold text-xl text-center pt-3">Event 5</h1>
-          <img src="./img/events-section/event5.PNG" alt="event5" />
+        <div id="5" class="desc bg-amber-400 rounded-3xl overflow-hidden">
+          <h1 class="font-bold text-xl text-center pt-3">Painting Competition</h1>
+          <img src="./img/events-section/event6.PNG" alt="event5" />
         </div>
 
-        <!--Event 6-->
-        <div id="6" class="desc bg-amber-400 rounded-3xl overflow-hidden">
-          <h1 class="font-bold text-xl text-center pt-3">Event 6</h1>
-          <img src="./img/events-section/event6.PNG" alt="event6" />
+        <!-- Event 6 -->
+        <div
+          id="6"
+          class="desc bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
+        >
+          <h1 class="font-bold text-xl text-center pt-3">Photography Competition</h1>
+          <img src="./img/events-section/event7.PNG" alt="event6" />
         </div>
-
         <!-- Event 7 -->
         <div
           id="7"
-          class="desc box hidden bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-gray-400 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 7</h1>
-          <img src="./img/events-section/event7.PNG" alt="event7" />
+          <h1 class="font-bold text-xl text-center pt-3">Solo/Duet Dance</h1>
+          <img src="./img/events-section/event8.PNG" alt="event7" />
         </div>
         <!-- Event 8 -->
         <div
           id="8"
-          class="desc box hidden bg-gray-400 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-lime-600 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 8</h1>
-          <img src="./img/events-section/event8.PNG" alt="event8" />
+          <h1 class="font-bold text-xl text-center pt-3">Stand up Comedy</h1>
+          <img src="./img/events-section/event9.PNG" alt="event8" />
         </div>
         <!-- Event 9 -->
         <div
           id="9"
-          class="desc box hidden bg-lime-600 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-amber-700 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 9</h1>
-          <img src="./img/events-section/event9.PNG" alt="event9" />
+          <h1 class="font-bold text-xl text-center pt-3">Shayarana Shaam</h1>
+          <img src="./img/events-section/event10.PNG" alt="event9" />
         </div>
+
         <!-- Event 10 -->
         <div
           id="10"
-          class="desc box hidden bg-amber-700 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 10</h1>
-          <img src="./img/events-section/event10.PNG" alt="event10" />
+          <h1 class="font-bold text-xl text-center pt-3">Treasure Hunt</h1>
+          <img src="./img/events-section/event11.PNG" alt="event10" />
         </div>
 
         <!-- Event 11 -->
         <div
           id="11"
-          class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden"
-        >
-          <h1 class="font-bold text-xl text-center pt-3">Event 11</h1>
-          <img src="./img/events-section/event11.PNG" alt="event12" />
-        </div>
-
-        <!-- Event 12 -->
-        <div
-          id="12"
           class="desc box hidden bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 12</h1>
-          <img src="./img/events-section/event12.PNG" alt="event13" />
+          <h1 class="font-bold text-xl text-center pt-3">Beat Boxing Competition</h1>
+          <img src="./img/events-section/event12.PNG" alt="event11" />
+        </div>
+        <!--Event 12-->
+        <div
+          id="12"
+          class="desc box hidden bg-gray-400 rounded-3xl overflow-hidden"
+        >
+          <h1 class="font-bold text-xl text-center pt-3">Freestyle Group Dance</h1>
+          <img src="./img/events-section/event13.JPG" alt="event12" />
         </div>
         <!--Event 13-->
         <div
           id="13"
-          class="desc box hidden bg-gray-400 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-lime-600 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 13</h1>
-          <img src="./img/events-section/event13.JPG" alt="event13" />
+          <h1 class="font-bold text-xl text-center pt-3">Freestyle Solo Dance</h1>
+          <img src="./img/events-section/event14.JPG" alt="event13" />
         </div>
+
         <!--Event 14-->
         <div
           id="14"
-          class="desc box hidden bg-lime-600 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-amber-700 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 14</h1>
-          <img src="./img/events-section/event14.JPG" alt="event14" />
+          <h1 class="font-bold text-xl text-center pt-3">Law Games</h1>
+          <img src="./img/events-section/law_game_sangeetam (1).png" alt="event14" />
         </div>
-
         <!--Event 15-->
         <div
           id="15"
-          class="desc box hidden bg-amber-700 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 15</h1>
-          <img src="./img/events-section/event15.JPG" alt="event15" />
+          <h1 class="font-bold text-xl text-center pt-3">Rap Battle</h1>
+          <img src="./img/events-section/event-rap.png" alt="event15"/>
         </div>
         <!--Event 16-->
         <div
           id="16"
-          class="desc box hidden bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-gray-400 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 16</h1>
-          <img src="./img/events-section/event17.JPG" alt="event16" />
+          <h1 class="font-bold text-xl text-center pt-3">Face Painting Competition</h1>
+          <img src="./img/events-section/event18.JPG" alt="event16" />
         </div>
         <!--Event 17-->
         <div
           id="17"
-          class="desc box hidden bg-gray-400 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-lime-600 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 17</h1>
-          <img src="./img/events-section/event18.JPG" alt="event17" />
+          <h1 class="font-bold text-xl text-center pt-3">Nukkad Natak</h1>
+          <img src="./img/events-section/event19.JPG" alt="event17" />
         </div>
         <!--Event 18-->
         <div
           id="18"
-          class="desc box hidden bg-lime-600 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-amber-700 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 18</h1>
-          <img src="./img/events-section/event19.JPG" alt="event18" />
+          <h1 class="font-bold text-xl text-center pt-3">Mimicry Competition</h1>
+          <img src="./img/events-section/event20.JPG" alt="event18" />
         </div>
         <!--Event 19-->
         <div
           id="19"
-          class="desc box hidden bg-amber-700 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 19</h1>
-          <img src="./img/events-section/event20.JPG" alt="event19" />
+          <h1 class="font-bold text-xl text-center pt-3">Qawwali Competition</h1>
+          <img src="./img/events-section/event21.JPG" alt="event19" />
         </div>
         <!--Event 20-->
         <div
           id="20"
-          class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 20</h1>
-          <img src="./img/events-section/event21.JPG" alt="event20" />
+          <h1 class="font-bold text-xl text-center pt-3">Case Study Competition</h1>
+          <img src="./img/events-section/case study_sangeetam(1).png" alt="event20" />
         </div>
         <!--Event 21-->
         <div
           id="21"
-          class="desc box hidden bg-gradient-to-r from-purple-500 to-blue-500 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-gray-400 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 21</h1>
-          <img src="./img/events-section/event22.JPG" alt="event21" />
+          <h1 class="font-bold text-xl text-center pt-3">Movie Making Competition</h1>
+          <img src="./img/events-section/event23.JPG" alt="event21" />
         </div>
         <!--Event 22-->
         <div
           id="22"
-          class="desc box hidden bg-gray-400 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-lime-600 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 22</h1>
-          <img src="./img/events-section/event23.JPG" alt="event22" />
+          <h1 class="font-bold text-xl text-center pt-3">T-Shirt Designing</h1>
+          <img src="./img/events-section/event24.JPG" alt="event22" />
         </div>
         <!--Event 23-->
         <div
           id="23"
-          class="desc box hidden bg-lime-600 rounded-3xl overflow-hidden"
+          class="desc box hidden bg-amber-700 rounded-3xl overflow-hidden"
         >
-          <h1 class="font-bold text-xl text-center pt-3">Event 23</h1>
-          <img src="./img/events-section/event24.JPG" alt="event23" />
+          <h1 class="font-bold text-xl text-center pt-3">Crime Scene Investigation</h1>
+          <img src="./img/events-section/crime_investigation_sangeetam(1).png" alt="event23" class="h-30"/>
+        </div>
+          <!--Event 24-->
+          <div
+          id="24"
+          class="desc box hidden bg-amber-400 rounded-3xl overflow-hidden"
+        >
+          <h1 class="font-bold text-xl text-center pt-3">Biological Activity</h1>
+          <img src="./img/events-section/biological_games.png" alt="event24" />
         </div>
       </div>
       <div class="w-full flex justify-center">
@@ -491,7 +515,7 @@
         id="faq"
         class="w-full lg:w-3/5 flex justify-center flex-col border-y border-r"
       >
-        <h1 class="border-b-2 text-4xl py-6 text-center">FAQ's</h1>
+        <h1 class="border-b-2 text-4xl py-6 text-center underline underline-offset-8">FAQ's</h1>
         <!-- component -->
 
         <div id="accordion-collapse" data-accordion="collapse">
@@ -550,7 +574,7 @@
               aria-expanded="false"
               aria-controls="accordion-collapse-body-2"
             >
-              <span class="text-gray-300">When and where is Sangeetam taking place this year?</span>
+            <span class="text-gray-300 text-left">When and where is Sangeetam taking place this year?</span>
               <svg
                 data-accordion-icon
                 class="w-3 h-3 rotate-180 shrink-0"
@@ -575,7 +599,7 @@
             aria-labelledby="accordion-collapse-heading-2"
           >
             <div class="p-5 bg-gray-900">
-              <p class="mb-2 text-white text-gray-400">
+              <p class="mb-2 text-white ">
                 Sangeetam is taking place at Shobhit University Meerut on
                 February 9 and 10, 2024.
               </p>
@@ -590,7 +614,7 @@
               aria-controls="accordion-collapse-body-3"
             >
               <span
-              class="text-gray-300">Will there be any opportunities for networking and socializing
+              class="text-gray-300 text-left">Will there be any opportunities for networking and socializing
                 at the event?</span
               >
               <svg
@@ -616,8 +640,8 @@
             class="hidden"
             aria-labelledby="accordion-collapse-heading-3"
           >
-            <div class="p-5 bg-gray-900 border-gray-200 border-gray-700">
-              <p class="mb-2 text-white text-gray-400">
+            <div class="p-5 bg-gray-900 border-gray-200">
+              <p class="mb-2 text-white ">
                 From stalls of companies to youth from multiple colleges, the
                 event will create high exposure opportunities.
               </p>
@@ -632,7 +656,7 @@
               aria-expanded="false"
               aria-controls="accordion-collapse-body-4"
             >
-              <span class="text-gray-300">What is the target audience for the event?</span>
+              <span class="text-gray-300 text-left">What is the target audience for the event?</span>
               <svg
                 data-accordion-icon
                 class="w-3 h-3 rotate-180 shrink-0"
@@ -657,7 +681,7 @@
             aria-labelledby="accordion-collapse-heading-4"
           >
             <div class="p-5 bg-gray-900">
-              <p class="mb-2 text-white text-gray-400">
+              <p class="mb-2 text-white ">
                 College and school students
               </p>
             </div>
@@ -670,7 +694,7 @@
               aria-expanded="false"
               aria-controls="accordion-collapse-body-5"
             >
-              <span class="text-gray-300">How can we connect with the team?</span>
+              <span class="text-gray-300 text-left">How can we connect with the team?</span>
               <svg
                 data-accordion-icon
                 class="w-3 h-3 rotate-180 shrink-0"
@@ -695,7 +719,7 @@
             aria-labelledby="accordion-collapse-heading-5"
           >
             <div class="p-5 bg-gray-900">
-              <p class="mb-2 text-white text-gray-400">
+              <p class="mb-2 text-white ">
                 Feel free to reach us out through our official email address:
                 <span class="text-blue-500">
                   <a href="mailto:sangeetam@shobhituniversity.ac.in"
@@ -714,7 +738,7 @@
               aria-controls="accordion-collapse-body-6"
             >
               <span
-              class="text-gray-300">Are there any specific rules or guidelines for attendees to
+              class="text-gray-300 text-left">Are there any specific rules or guidelines for attendees to
                 follow?</span
               >
               <svg
@@ -741,9 +765,9 @@
             aria-labelledby="accordion-collapse-heading-6"
           >
             <div
-              class="p-5 border-t-0 border-gray-200 border-gray-700 bg-gray-900"
+              class="p-5 border-t-0 border-gray-200  bg-gray-900"
             >
-              <p class="mb-2 text-white text-gray-400">
+              <p class="mb-2 text-white ">
                 Discipline and proper decorum should be maintained throughout
                 the event. And all event rules and regulations you can find in
                 the event posts on our social media.
@@ -758,7 +782,7 @@
               aria-expanded="false"
               aria-controls="accordion-collapse-body-7"
             >
-              <span class="text-gray-300">What are the events happening at Sangeetam?</span>
+              <span class="text-gray-300 text-left">What are the events happening at Sangeetam?</span>
               <svg
                 data-accordion-icon
                 class="w-3 h-3 rotate-180 shrink-0"
@@ -783,7 +807,7 @@
             aria-labelledby="accordion-collapse-heading-7"
           >
             <div class="p-5 bg-gray-900">
-              <p class="mb-2 text-white text-gray-400">
+              <p class="mb-2 text-white ">
                 Go through the event page of the website.
               </p>
             </div>
@@ -796,7 +820,7 @@
               aria-expanded="false"
               aria-controls="accordion-collapse-body-8"
             >
-              <span class="text-gray-300">How do I register for the events at Sangeetam?</span>
+              <span class="text-gray-300 text-left">How do I register for the events at Sangeetam?</span>
               <svg
                 data-accordion-icon
                 class="w-3 h-3 rotate-180 shrink-0"
@@ -820,8 +844,8 @@
             class="hidden"
             aria-labelledby="accordion-collapse-heading-8"
           >
-            <div class="p-5 bg-gray-900 bg-gray-900">
-              <p class="mb-2 text-white text-gray-400">
+            <div class="p-5 bg-gray-900">
+              <p class="mb-2 text-white ">
                 You can register for your interested game or competition through
                 the website and choose “Register as a Guest” if you are not a
                 student of Shobhit University, fill out the required fields
@@ -839,7 +863,7 @@
               aria-controls="accordion-collapse-body-9"
             >
               <span
-              class="text-gray-300">Will there be accommodation available for participants and
+              class="text-gray-300 text-left">Will there be accommodation available for participants and
                 guests of Sangeetam?</span
               >
               <svg
@@ -866,7 +890,7 @@
             aria-labelledby="accordion-collapse-heading-9"
           >
             <div class="p-5 bg-gray-900">
-              <p class="mb-2 text-white text-gray-400">
+              <p class="mb-2 text-white ">
                 No, there is no accommodation facility will be provided to stay
                 at Shobhit University. You can find so many hotels and restrooms
                 near our Campus to stay.
@@ -880,7 +904,7 @@
         <h1 class="text-center text-4xl pb-6 underline underline-offset-8">
           Contact Us
         </h1>
-        <h1 class="pt-12 text-center m-3 text-lg text-gray-300">
+        <h1 class="pt-9 text-center m-3 text-lg text-gray-300">
           <p>
             *Can't find your queries in FAQ's don't worry we got you covered or
             just want to talk to us
@@ -897,7 +921,7 @@
           </button>
           <hr>
           <div class="text-slate-50 text-center mt-5 " >Locate on Map</div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3487.145587359493!2d77.71026497462147!3d29.071842563997308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c6fb077e3ead9%3A0x47077e27598160!2sShobhit%20Institute%20of%20Engineering%20%26%20Technology%2C%20Meerut%20(NAAC%20&#39;A&#39;%20Grade%20Accredited%20Deemed%20to-be-University)!5e0!3m2!1sen!2sin!4v1706905058548!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mt-3 mx-auto"></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3487.145587359493!2d77.71026497462147!3d29.071842563997308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c6fb077e3ead9%3A0x47077e27598160!2sShobhit%20Institute%20of%20Engineering%20%26%20Technology%2C%20Meerut%20(NAAC%20&#39;A&#39;%20Grade%20Accredited%20Deemed%20to-be-University)!5e0!3m2!1sen!2sin!4v1706905058548!5m2!1sen!2sin" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="m-3 mx-auto"></iframe>
         </div>
       </section>
     </section>
@@ -905,13 +929,22 @@
     <!-- footer  -->
     <footer id="footer" class="bg-black text-center text-slate-400">
       <p>
-        &copy; 2023 Sangeetam. Powered by
+        &copy; 2024 Sangeetam. Powered by
         <span class="text-white"
           ><a href="https://www.shobhituniversity.ac.in/" target="_blank"
             >Shobhit University</a
           ></span
         >
-        -
+        &nbsp; Follow us on 
+        <a href="https://www.instagram.com/sangeetam.su?igsh=Zm1veDBkMnh3cDVs" target="_blank"
+            ><img class="inline-block"
+            src="./img/footer/ig.svg"></a
+          >
+        <a href="https://www.facebook.com/share/p/REfdzoZLusdzK8F2/?mibextid=WC7FNe" target="_blank"
+            ><img class="inline-block"
+            src="./img/footer/fb_.svg"></a
+          >
+        
       </p>
       <p>All rights reserved</p>
       <p>Made with ❤ By :</p>
@@ -928,11 +961,10 @@
       id="to-top-button"
       onclick="goToTop()"
       title="Go To Top"
-      class="hidden fixed z-90 bottom-1 right-1 border-0 w-14 h-14 rounded-full drop-shadow-md bg-indigo-800 text-white text-3xl font-bold"
+      class="hidden fixed z-90 bottom-9 right-1 border-0 w-10 h-10 rounded-full drop-shadow-md bg-indigo-800 text-white text-3xl font-bold cursor-pointer"
     >
       <img class="w-3/4 mx-auto" src="./img/arrow-up.png" />
     </button>
-
     <!--external js file  -->
     <script src="./scripts/script.js"></script>
 
