@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -18,12 +19,12 @@ body {
   height: 100%;
   background: #0d0745;
   color: white;
-  font-family: 'Recursive', sans-serif;;
+  font-family: "Recursive", sans-serif;
 }
 @media only screen and (min-width: 769px) {
-::-webkit-scrollbar {
-  display: none;
-}
+  ::-webkit-scrollbar {
+    display: none;
+  }
 }
 #hero {
   position: relative;
@@ -47,6 +48,9 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  color: #ffd700;
+  text-shadow: 1px 1px #d4af37;
+  font-family: "Style Script", cursive, sans-serif;
 }
 #queryarea {
   resize: none;
@@ -56,17 +60,29 @@ body {
 #sponsors {
   background-color: var(--bg-color2);
 }
-#navbar{
+#navbar {
   /* background-color: transparent; */
   background: hsla(246, 22%, 35%, 1);
 
-background: linear-gradient(360deg, hsla(246, 22%, 35%, 1) 17%, hsla(246, 81%, 12%, 1) 93%);
+  background: linear-gradient(
+    360deg,
+    hsla(246, 22%, 35%, 1) 17%,
+    hsla(246, 81%, 12%, 1) 93%
+  );
 
-background: -moz-linear-gradient(360deg, hsla(246, 22%, 35%, 1) 17%, hsla(246, 81%, 12%, 1) 93%);
+  background: -moz-linear-gradient(
+    360deg,
+    hsla(246, 22%, 35%, 1) 17%,
+    hsla(246, 81%, 12%, 1) 93%
+  );
 
-background: -webkit-linear-gradient(360deg, hsla(246, 22%, 35%, 1) 17%, hsla(246, 81%, 12%, 1) 93%);
+  background: -webkit-linear-gradient(
+    360deg,
+    hsla(246, 22%, 35%, 1) 17%,
+    hsla(246, 81%, 12%, 1) 93%
+  );
 
-filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#49456C", endColorstr="#0B0638", GradientType=1 );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#49456C", endColorstr="#0B0638", GradientType=1 );
 }
 .blurred {
   backdrop-filter: blur(20px);

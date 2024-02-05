@@ -115,36 +115,36 @@ let rulesAndReg = [
     prize_money: ["Attractive Gift hampers", "Certificates of excellence."],
     regbtn: "https://forms.gle/dUXxzCrMAYd7DjRr7",
   },
-  {
-    //shabd saaj
-    overview:
-      "Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
-    eligibility: "Open to all",
-    rules: [
-      "Submission Guidelines:",
-      "Poetry/Shayari must be original and in Hindi, English, Hinglish, or Urdu.",
-      "Poetry/Shayari must be minimum of 6 lines.",
-      "Poetry must be submitted in a typed format.",
-      "General Rules : ",
-      "All submissions must be made by the due date.",
-      "Late submissions will not be accepted.",
-      "The decision of the judges will be final.",
-      "Organizers/ Judges reserve the right to change any of the rules at any time.",
-      "Participants must be available to perform their Poetry/Shayari on stage at the designated time.",
-      "Participants are encouraged to use musical terms and concepts in their Shayari.",
-    ],
-    entry_fee: ["₹200"],
-    prize_money: ["Attractive Gift Hamper with novels and certificates"],
-    judging_criteria: [
-      "Creativity of words",
-      "Meaning of the piece performed",
-      "Literature delivery",
-    ],
-    regbtn: "https://forms.gle/AcWaauT6dsBgxT5S7",
-    add_info: [
-      "Participants can submit their Poetry/Shayari offline or online.",
-    ],
-  },
+  // {
+  //   //shabd saaj
+  //   overview:
+  //     "Poets and Shayars recite their compositions, showcasing the beauty of verse and prose.",
+  //   eligibility: "Open to all",
+  //   rules: [
+  //     "Submission Guidelines:",
+  //     "Poetry/Shayari must be original and in Hindi, English, Hinglish, or Urdu.",
+  //     "Poetry/Shayari must be minimum of 6 lines.",
+  //     "Poetry must be submitted in a typed format.",
+  //     "General Rules : ",
+  //     "All submissions must be made by the due date.",
+  //     "Late submissions will not be accepted.",
+  //     "The decision of the judges will be final.",
+  //     "Organizers/ Judges reserve the right to change any of the rules at any time.",
+  //     "Participants must be available to perform their Poetry/Shayari on stage at the designated time.",
+  //     "Participants are encouraged to use musical terms and concepts in their Shayari.",
+  //   ],
+  //   entry_fee: ["₹200"],
+  //   prize_money: ["Attractive Gift Hamper with novels and certificates"],
+  //   judging_criteria: [
+  //     "Creativity of words",
+  //     "Meaning of the piece performed",
+  //     "Literature delivery",
+  //   ],
+  //   regbtn: "https://forms.gle/AcWaauT6dsBgxT5S7",
+  //   add_info: [
+  //     "Participants can submit their Poetry/Shayari offline or online.",
+  //   ],
+  // },
   {
     //battle of bands
     overview:
@@ -461,8 +461,9 @@ let rulesAndReg = [
     eligibility:
       "Any Student pursuing Integrated five years or three-year LL.B. programme.Team participation is mandatory. ",
     rules: [
-      "Each team shall compose of three participants.",      "Mandatory participation in all three activities for each team is required." ,
-      "No books, statue, electronic gadget or judgement can be referred for giving answers in quiz or picture depiction." ,
+      "Each team shall compose of three participants.",
+      "Mandatory participation in all three activities for each team is required.",
+      "No books, statue, electronic gadget or judgement can be referred for giving answers in quiz or picture depiction.",
       "A maximum of 30 seconds shall be given for answering quiz and picture depiction.",
       "A minimum of 3 minutes shall be allocated for declamation.",
       "Only legal questions and topics will be part of activity.",
@@ -472,10 +473,12 @@ let rulesAndReg = [
       "Only one speaker from each team shall speak during declamation competition. ",
     ],
     entry_fee: [
-      "Fees for Registration is Rs. 600 per team for participation in all three activities." ,
+      "Fees for Registration is Rs. 600 per team for participation in all three activities.",
       "Registration can be done both in online and offline mode.",
     ],
-    prize_money: [" ₹4000/- for each winning team and a certificate of excellence."],
+    prize_money: [
+      " ₹4000/- for each winning team and a certificate of excellence.",
+    ],
     judging_criteria: [
       "Knowledge",
       "Confidence",
@@ -483,10 +486,9 @@ let rulesAndReg = [
       "Presentability",
       "Adherence to the legal topic",
       "Creativity",
-      "Teamwork"
+      "Teamwork",
     ],
-    add_info:["Venue:",
-    "Moot Court Hall, SLCS Building, SIET, Meerut"],
+    add_info: ["Venue:", "Moot Court Hall, SLCS Building, SIET, Meerut"],
     regbtn: "https://forms.gle/FcvAjHcYG4tkBQyU7",
   },
   {
@@ -624,14 +626,22 @@ let rulesAndReg = [
       "The Business Case Study competition is a test of analytical and strategic thinking, challenges teams to analyze real-world business scenarios and, propose and presents solutions.",
     eligibility: "Teams of up to 4 individuals.",
     rules: [
-      "Details and guidelines for the case study will be provided on the day of the competition.", "Teams must prepare and present their analysis and recommendations within a specified time frame of 3 hours.",
+      "Details and guidelines for the case study will be provided on the day of the competition.",
+      "Teams must prepare and present their analysis and recommendations within a specified time frame of 3 hours.",
     ],
 
     entry_fee: ["₹600 for each team."],
-    prize_money: [" ₹5000 for the team with the best analysis and solution presentation",
-    "Certificate of excellence."],
-    judging_criteria: ["Analytical depth", "Feasibility of recommendations", "presentation skills",  "Q&A performance."],
-    add_info:["For furthermore details please contact the coordinators."],
+    prize_money: [
+      " ₹5000 for the team with the best analysis and solution presentation",
+      "Certificate of excellence.",
+    ],
+    judging_criteria: [
+      "Analytical depth",
+      "Feasibility of recommendations",
+      "presentation skills",
+      "Q&A performance.",
+    ],
+    add_info: ["For furthermore details please contact the coordinators."],
     regbtn: "https://forms.gle/MseBLcXkMDirPqUB9",
   },
   {
